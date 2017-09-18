@@ -1,10 +1,11 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
+
 $client = new GuzzleHttp\Client();
 // $res = $client->request('GET', 'https://api.github.com/user', [
 //     'auth' => ['user', 'pass']
 // ]);
-$res = $client->request('GET', 'http://www.insudiet.fr');
+$res = $client->request('GET', 'http://www.telepoche.fr');
 echo $res->getStatusCode();
 // "200"
 echo $res->getHeader('content-type');
