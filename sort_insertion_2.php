@@ -33,8 +33,7 @@ for ($i=0;$i<count($list);$i++) {
 }//end for
  echo "list initiale";
  print_r($list);
-echo "<br>liste triée ";
-
+ echo "<br>liste triée";
  print_r($list_ordered);
  $temps=microtime(true)-$start;
  echo $temps;
